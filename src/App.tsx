@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Header } from 'components/Header/Header';
 import { Form } from 'components/Form/Form';
+import { List } from 'components/List/List';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
 
       <main>
         <Form />
+        <List />
       </main>
     </div>
   );
